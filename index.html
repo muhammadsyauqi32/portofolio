@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Syauqi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#hero" class="nav-brand">Muhammad Syauqi</a>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-photo-frame">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Your Professional Photo" class="hero-photo">
+                </div>
+                <h1>Hello, I'm Syauqi</h1>
+                <p class="hero-subtitle">
+                    <span id="typewriter-text"></span><span class="cursor">_</span>
+                </p>
+                <a href="#projects" class="btn btn-primary">See My Creations</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section scroll-reveal">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Halo! Saya <strong>Muhammad Syauqi Ibrahim Kamil</strong>, seorang mahasiswa bersemangat dari <strong>IPB University</strong> yang mendalami <strong>Statistika dan Sains Data</strong>. Sejak SMP (sekitar tahun 2021), saya sudah jatuh cinta pada dunia pemrograman dan bagaimana teknologi dapat membentuk solusi inovatif.</p>
+                <p>Meskipun fokus akademis saya pada analisis data, <em>machine learning</em>, dan pemodelan statistik, saya juga memiliki fondasi kuat dalam <strong>pengembangan web <em>full-stack</em></strong>. Saya suka mengubah ide-ide kompleks menjadi aplikasi yang fungsional, intuitif, dan mudah digunakan.</p>
+                <p>Saya percaya pada pembelajaran berkelanjutan dan sangat antusias memanfaatkan teknologi terbaru, termasuk <strong>kecerdasan buatan (AI)</strong>, untuk menyederhanakan proses pengembangan dan menciptakan produk yang berdampak. Saya selalu siap menghadapi tantangan baru dan berkontribusi pada proyek-proyek yang berarti.</p>
+                <p>Di luar <em>coding</em> dan belajar, saya sering menghabiskan waktu menjelajahi tren teknologi terbaru, bermain game, atau memecahkan teka-teki matematika. Mari berkolaborasi dan wujudkan ide-ide hebat!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section scroll-reveal">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, JavaScript (ES6+), Responsive Design, DOM Manipulation</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Express.js, RESTful APIs, Basic Authentication</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">📊</div>
+                    <h3>Data Science & Analytics</h3>
+                    <p>Python (Pandas, NumPy, Scikit-learn), R, Statistical Modeling, Data Visualization, Excel</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Database Management</h3>
+                    <p>MongoDB (NoSQL), SQL (Basic Queries), Data Modeling</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools & Concepts</h3>
+                    <p>Git, GitHub, VS Code, Problem Solving, AI-Assisted Development, API Integration</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🔒</div>
+                    <h3>Cybersecurity (Basic Interest)</h3>
+                    <p>Networking Fundamentals, Linux OS Basics, Web Security Concepts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section scroll-reveal">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="img/footballmeetfood.png" alt="Dynamic Blog Project" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <h3>Dynamic Blog Website</h3>
+                        <p>Platform blog <em>full-stack</em> dengan panel admin, operasi CRUD (buat, baca, perbarui, hapus postingan), unggah gambar dengan <em>cropping</em> (rasio 16:9), fitur pencarian, filter kategori, dan desain responsif. Dibangun dengan HTML, CSS, JavaScript, dan Node.js/Express.js.</p>
+                        <div class="project-links">
+                            <a href="blog_demo_index.html" class="btn btn-secondary" target="_blank">View Live Demo</a>
+                            <a href="https://github.com/yourusername/my-blog-backend" class="btn btn-secondary" target="_blank">Backend Code (GitHub)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="img/stopwatch.png" alt="Stopwatch Game Project" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Stopwatch Game</h3>
+                        <p>Sebuah aplikasi <em>stopwatch</em> berbasis web interaktif dengan fungsi <em>start</em>, <em>pause</em>, <em>reset</em>, dan mode permainan di mana pengguna harus berhenti tepat di 10 detik untuk mendapatkan "hadiah". Dibangun sepenuhnya dengan HTML, CSS, dan Vanilla JavaScript.</p>
+                        <div class="project-links">
+                            <a href="stopwatch.html" class="btn btn-secondary" target="_blank">View Live Demo</a>
+                            <a href="https://github.com/yourusername/stopwatch-repo" class="btn btn-secondary" target="_blank">View Code (GitHub)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1551288259-cd19717d620a?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Data Analysis Project" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <h3>Analisis Sentimen Ulasan Film</h3>
+                        <p>Proyek analisis data yang mengeksplorasi sentimen ulasan film menggunakan teknik <em>Natural Language Processing</em> (NLP). Mengumpulkan data dari sumber publik, melakukan <em>preprocessing</em>, dan menerapkan model <em>machine learning</em> untuk mengklasifikasikan ulasan sebagai positif, negatif, atau netral. Dilakukan menggunakan Python (Pandas, NLTK, Scikit-learn).</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary disabled">View Report</a>
+                            <a href="https://github.com/yourusername/sentiment-analysis-project" class="btn btn-secondary" target="_blank">Code (GitHub)</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1581092910403-bf30c25c347f?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Future Learning Project" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <h3>(Sedang Dikembangkan) Aplikasi Manajemen Keuangan Personal</h3>
+                        <p>Sebuah aplikasi web untuk membantu pengguna melacak pengeluaran, mengatur anggaran, dan memvisualisasikan pola keuangan mereka. Akan dibangun dengan React (Frontend) dan Node.js/MongoDB (Backend) untuk eksplorasi framework modern.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary disabled">Coming Soon</a>
+                            <a href="#" class="btn btn-secondary disabled">Code (GitHub)</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section scroll-reveal">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Punya proyek menarik atau ingin berdiskusi? Jangan ragu untuk menghubungi saya!</p>
+            <form id="contact-form" class="contact-form">
+                <input type="text" name="name" placeholder="Nama Anda" required>
+                <input type="email" name="email" placeholder="Email Anda" required>
+                <textarea name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                <p id="form-message" class="form-message"></p>
+            </form>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="mailto:youremail@example.com">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Muhammad Syauqi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
